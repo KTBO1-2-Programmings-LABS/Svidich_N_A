@@ -1,4 +1,0 @@
-﻿  Lab5,Svidich,2v.cpp
-C:\Users\svidi\Desktop\vs\Lab5,Svidich,2v\Lab5,Svidich,2v\Lab5,Svidich,2v.cpp(187,12): warning C4477: "printf": в строке форматирования "%f" требуется аргумент типа "double", но вариативный аргумент "1" имеет тип "time_t"
-C:\Users\svidi\Desktop\vs\Lab5,Svidich,2v\Lab5,Svidich,2v\Lab5,Svidich,2v.cpp(191,12): warning C4477: "printf": в строке форматирования "%f" требуется аргумент типа "double", но вариативный аргумент "1" имеет тип "time_t"
-C:\Users\svidi\Desktop\vs\Lab5,Svidich,2v\Lab5,Svidich,2v\Lab5,Svidich,2v.cpp(195,12): warning C4477: "printf": в строке форматирования "%f" требуется аргумент типа "double", но вариативный аргумент "1" имеет тип "time_t"
