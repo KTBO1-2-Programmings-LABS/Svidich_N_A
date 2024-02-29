@@ -11,13 +11,13 @@ char stack[MAX_SIZE];
 int peek = 0;
 
 // Äîáàâèòü ýëåìåíò â ñòåê
-void push(const char ñ)
+void push(const char c)
 {
     if (peek >= MAX_SIZE)
         printf("Stack overflow\n");
     else
     {
-        stack[peek] = ñ;
+        stack[peek] = c;
         peek++;
     }
 }
@@ -64,7 +64,7 @@ int main() {
         }
 
     char line[MAX_SIZE], result[MAX_SIZE];
-    int id = 0;       
+    unsigned int id = 0;       
    
     while (fgets(line, MAX_SIZE, input) != NULL) {
 
