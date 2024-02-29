@@ -13,8 +13,7 @@ int peek = 0;
 // Äîáàâèòü ýëåìåíò â ñòåê
 void push(const char c)
 {
-    if (peek >= MAX_SIZE)
-        printf("Stack overflow\n");
+    if (peek >= MAX_SIZE) printf("Stack overflow\n");
     else
     {
         stack[peek] = c;
@@ -74,13 +73,11 @@ int main() {
             // Åñëè çíàê - îïåðàíä, ïåðåáèðàåì ñòðîêó â ïîèñêå áîëåå ïðèîðèòåòíûõ çíà÷åíèé îïåðàíäîâ. Åñëè öèôðà - çàïèñü â áóôåð
             if (line[i] == '+' || line[i] == '-' || line[i] == '*' || line[i] == '/' || line[i] == '|' || line[i] == '&')
             {
-                
                 while (peek != 0 && stack[peek - 1] >= operation(line[i]))
                 {
                     result[id++] = pop();
                 }
                 push(line[i]);
-
             }
             else if (line[i] == '(')
             {
@@ -98,8 +95,8 @@ int main() {
             else if (line[i] != '\n' && line[i] != ' ')
             {
                 result[id++] = line[i];
-
             }
+            
         }
 
         result[id++] = '\0';
