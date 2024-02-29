@@ -11,7 +11,7 @@ char stack[MAX_SIZE];
 int peek = 0;
 
 // Äîáàâèòü ýëåìåíò â ñòåê
-void push(const char c)
+void push(char c)
 {
     if (peek >= MAX_SIZE) printf("Stack overflow\n");
     else
