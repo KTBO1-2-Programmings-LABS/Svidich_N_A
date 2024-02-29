@@ -58,13 +58,13 @@ int main() {
     FILE* output = fopen(OUTPUT_FN, "w");
 
     if (input == NULL || output == NULL) {
-            printf("Files error\n");
-            return -1;
-        }
+        printf("Files error\n");
+        return -1;
+    }
 
     char line[MAX_SIZE], result[MAX_SIZE];
-    unsigned int id = 0;       
-   
+    unsigned int id = 0;
+
     while (fgets(line, MAX_SIZE, input) != NULL) {
 
         // Ïåðåáîð ñòðîêè-âûðàæåíèÿ ïî ñèìâîëàì
@@ -96,9 +96,9 @@ int main() {
             {
                 result[id++] = line[i];
             }
-            
-        }
 
+        }
+        result[id++] = stack[0];
         result[id++] = '\0';
 
         printf("%s\n", result);
