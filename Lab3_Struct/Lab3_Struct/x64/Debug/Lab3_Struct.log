@@ -1,0 +1,4 @@
+﻿  Lab3_Struct.cpp
+C:\Users\svidi\OneDrive\Рабочий стол\Laborats\Lab3_Struct\Lab3_Struct\Lab3_Struct.cpp(129,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\svidi\OneDrive\Рабочий стол\Laborats\Lab3_Struct\Lab3_Struct\Lab3_Struct.cpp(163,9): warning C4477: "scanf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "unsigned int *"
+  Lab3_Struct.vcxproj -> C:\Users\svidi\OneDrive\Рабочий стол\Laborats\Lab3_Struct\x64\Debug\Lab3_Struct.exe
